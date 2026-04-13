@@ -1,0 +1,31 @@
+package com.example.demo_advanced_background_work
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.ui.Modifier
+import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.demo_advanced_background_work.ui.MediaHubScreen
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoint
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            MaterialTheme {
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+                    MediaHubScreen(viewModel = hiltViewModel())
+                }
+            }
+        }
+    }
+}

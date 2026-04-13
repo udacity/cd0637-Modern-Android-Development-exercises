@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Content Card</string>
+    <string name="notification_icon_description">Notification Icon</string>
+    <string name="sample_title">New Update Available</string>
+    <string name="sample_content">A new version of the app is ready to install. This update includes bug fixes and performance improvements.</string>
+    <string name="sample_timestamp">2 hours ago</string>
+</resources>

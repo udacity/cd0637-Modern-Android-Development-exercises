@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bottom Navigation</string>
+    <string name="home_tab">Home</string>
+    <string name="profile_tab">Profile</string>
+    <string name="settings_tab">Settings</string>
+    <string name="home_title">Home</string>
+    <string name="profile_title">Profile</string>
+    <string name="settings_title">Settings</string>
+    <string name="detail_title">Details</string>
+</resources>

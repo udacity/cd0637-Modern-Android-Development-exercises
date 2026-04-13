@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Timer Cleanup</string>
+    <string name="timer_title">Countdown Timer</string>
+    <string name="start_button">Start</string>
+    <string name="pause_button">Pause</string>
+    <string name="reset_button">Reset</string>
+</resources>

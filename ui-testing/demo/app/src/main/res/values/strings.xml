@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compose UI Testing Demo</string>
+    <string name="login_title">Member Login</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="login_button_label">Login</string>
+    <string name="login_error_message">Invalid username or password</string>
+    <string name="dashboard_welcome">Welcome to the Dashboard!</string>
+    <string name="loading_message">Authenticating...</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Greeting Card Demo</string>
+    <string name="greeting_icon_description">Greeting Icon</string>
+    <string name="send_button">Send Wishes</string>
+    <string name="recipient_name">Paul</string>
+    <string name="greeting_message">Wishing you a fantastic day filled with success and positive vibes!</string>
+    <string name="sender_name">From: John</string>
+</resources>
